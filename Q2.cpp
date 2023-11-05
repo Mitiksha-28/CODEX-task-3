@@ -3,8 +3,8 @@ using namespace std;
 enum Days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
 
 int calculateDaysRemaining(Days today) {
-    cout<< ( 6- today );
-    return (6-today);
+    cout<< "Number of remaining days is "( 7 - today );
+    return (7 -today);
 }
 
 int main() {
